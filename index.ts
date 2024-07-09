@@ -105,7 +105,7 @@ async function updateTokenData() {
 }
 
 // Update token data every minute
-setInterval(updateTokenData, 6000);
+setInterval(updateTokenData, 600000);
 
 app.get("/", (req, res) => {
   res.json({ msg: "hi user" });
